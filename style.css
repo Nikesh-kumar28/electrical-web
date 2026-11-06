@@ -8,6 +8,26 @@
     box-sizing: border-box;
 }
 
+.whatsapp-btn {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  width: 64px;
+  height: 64px;
+  background: #25d366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 16px rgba(37, 211, 102, 0.4);
+  z-index: 9999;
+  transition: transform 0.2s ease;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.08);
+}
+
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 100px;
