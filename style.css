@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: center;
   box-shadow: 0 6px 16px rgba(37, 211, 102, 0.4);
-  z-index: 9999;
+  z-index: 999999;
   transition: transform 0.2s ease;
 }
 
@@ -2240,11 +2240,11 @@ body {
 /* Mobile view */
 @media (max-width: 768px) {
   .whatsapp-btn {
-    display: flex !important;
+    /* display: flex !important; */
     width: 56px;
     height: 56px;
     right: 14px;
-    bottom: 14px;
+    bottom: 90px;
   }
   .whatsapp-btn svg {
     width: 30px;
